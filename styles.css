@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+.head,.table,tr{
+            border: 1px solid black;
+        }
+        #colorblack{
+            background-color: black;
+            color: white;
+        }
