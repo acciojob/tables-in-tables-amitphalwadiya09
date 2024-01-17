@@ -1,9 +1,26 @@
 
 /* Your CSS Code here. */
-.head,.table,tr{
-            border: 1px solid black;
+body {
+            font-family: 'Arial', sans-serif;
         }
-        #colorblack{
-            background-color: black;
-            color: white;
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .black-cell {
+            background-color: #000;
+            color: #fff;
         }
